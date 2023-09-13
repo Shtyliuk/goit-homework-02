@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
+  color: #434455;
 }
 ul {
   list-style: none;
@@ -13,7 +14,6 @@ h3 {
   letter-spacing: 0.02em;
 }
 p {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -59,13 +59,13 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: underline;
 }
 .header__address {
 }
 .address__list {
 }
-.address__item:hover .address__item:focus {
+.address__link:hover,
+.address__link:focus {
   color: #404bbf;
   font-size: 16px;
   font-weight: 400;
@@ -73,7 +73,7 @@ address {
   letter-spacing: 0.02em;
 }
 .address__link {
-  coor: #434455;
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -86,7 +86,6 @@ l .main {
 }
 .hero_title {
   color: #fff;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -102,7 +101,8 @@ l .main {
   border-radius: 4px;
   background: #4d5ae5;
 }
-.hero__btn:hover {
+.hero__btn:hover,
+.hero__btn:focus {
   border-radius: 4px;
   background: #404bbf;
 }
@@ -123,12 +123,10 @@ l .main {
 }
 .teamcard__title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 .teamcard__list {
 }
