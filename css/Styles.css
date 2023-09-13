@@ -1,13 +1,169 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-   text-decoration: none; 
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-address{
-    font-style: normal;
+p {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+address {
+  font-style: normal;
+}
+.header {
+}
+.header__nav {
+}
+.header__logo-bold {
+  color: #4d5ae5;
+}
+.logo__header {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header__address {
+}
+.address__list {
+}
+.address__item {
+}
+.address__link {
+  coor: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+l .main {
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero_title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero__btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.feature {
+}
+.feature__title {
+}
+.feature__list {
+}
+.feature__item {
+}
+.feature__subtitle {
+}
+.feature__text {
+}
+.teamcard {
+  background: #f4f4fd;
+}
+.teamcard__title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.teamcard__list {
+}
+.teamcard__item {
+}
+.teamcard__images {
+}
+.teamcard__subtitle {
+}
+.teamcard__text {
+}
+.portfolio {
+}
+.portfolio__title {
+}
+.portfolio__list {
+}
+.portfolio__item {
+}
+.portfolio__images {
+}
+.portfolio__subtitle {
+}
+.portfolio__text {
+}
+.footer {
+  background: #2e2f42;
+}
+.logo__footer {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.footer__text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header__logo-bold {
+}
+.visually__hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
