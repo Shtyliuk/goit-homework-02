@@ -121,6 +121,8 @@ address {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .teamcard__list {
 }
@@ -136,6 +138,8 @@ address {
 .portfolio {
 }
 .portfolio__title {
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio__list {
 }
@@ -155,7 +159,7 @@ address {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -168,16 +172,4 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.visually__hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
