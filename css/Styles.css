@@ -14,7 +14,6 @@ h3 {
 }
 p {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -31,7 +30,7 @@ address {
 }
 .header__nav {
 }
-.header__logo-bold {
+.logo__blue {
   color: #4d5ae5;
 }
 .logo__header {
@@ -53,11 +52,25 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.nav__link:active,
+.nav__link:focus {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+}
 .header__address {
 }
 .address__list {
 }
-.address__item {
+.address__item:hover .address__item:focus {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address__link {
   coor: #434455;
@@ -86,6 +99,12 @@ l .main {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  background: #4d5ae5;
+}
+.hero__btn:hover {
+  border-radius: 4px;
+  background: #404bbf;
 }
 .feature {
 }
@@ -152,8 +171,6 @@ l .main {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.header__logo-bold {
 }
 .visually__hidden {
   position: absolute;
