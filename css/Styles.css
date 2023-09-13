@@ -30,16 +30,17 @@ address {
 }
 .header__nav {
 }
-.logo__blue {
-  color: #4d5ae5;
+.logo__desc {
+  color: #2e2f42;
 }
 .logo__header {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .nav__list {
 }
@@ -52,7 +53,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav__link:active,
+.nav__link:hover,
 .nav__link:focus {
   color: #404bbf;
   font-size: 16px;
@@ -62,15 +63,9 @@ address {
 }
 .header__address {
 }
-.address__list {
-}
 .address__link:hover,
 .address__link:focus {
   color: #404bbf;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .address__link {
   color: #434455;
@@ -79,22 +74,22 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-l .main {
-}
 .hero {
   background-color: #2e2f42;
 }
 .hero_title {
   color: #fff;
   font-size: 56px;
+  text-align: center;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .hero__btn {
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -103,7 +98,6 @@ l .main {
 }
 .hero__btn:hover,
 .hero__btn:focus {
-  border-radius: 4px;
   background: #404bbf;
 }
 .feature {
@@ -131,6 +125,7 @@ l .main {
 .teamcard__list {
 }
 .teamcard__item {
+  background-color: #ffffff;
 }
 .teamcard__images {
 }
@@ -156,12 +151,16 @@ l .main {
   background: #2e2f42;
 }
 .logo__footer {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo__descwth {
+  color: #f4f4fd;
 }
 .footer__text {
   color: #f4f4fd;
